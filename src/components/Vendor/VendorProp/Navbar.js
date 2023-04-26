@@ -18,7 +18,7 @@ function Navbar(props) {
         <b>LOGO</b>
       </div>
       <div className="name">
-        <b>{document.cookie.split("=")[1]}</b>
+        <b>{localStorage.getItem("vendorName")}</b>
       </div>
       <div class="dropdown">
         <div className="imgven"></div>

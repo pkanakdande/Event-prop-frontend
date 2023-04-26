@@ -45,6 +45,7 @@ function VendorHome() {
   .then((data)=>{
      localStorage.setItem('vendorToken', data.data);
      localStorage.setItem('vendorloggedIn',true);
+     localStorage.setItem('vendorName', data.vendorName);
      if (data.status == "ok")
      {
       alert("login Successful")
