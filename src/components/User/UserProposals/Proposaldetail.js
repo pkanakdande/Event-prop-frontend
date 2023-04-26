@@ -16,7 +16,7 @@ function Proposaldetail(props) {
   console.log(id);
 
   const selectProposal = () =>{
-    fetch("https://event-proposal-backend-g0mb.onrender.com/selectproposal",{
+    fetch("https://proposal-back-end.onrender.com/selectproposal",{
       method:"POST",
       crossDoamin : true,
       headers:{"content-type":"application/json","accept":"application/json","Access-Control-Allow-Origin" : "*"},
@@ -35,7 +35,7 @@ function Proposaldetail(props) {
   }
 
   const getProposaldata = () => {
-    fetch(`https://event-proposal-backend-g0mb.onrender.com/getproposal/${id}`, {
+    fetch(`https://proposal-back-end.onrender.com/getproposal/${id}`, {
       method: "GET",
       crossDoamin: true,
       headers: {

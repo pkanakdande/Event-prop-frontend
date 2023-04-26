@@ -33,7 +33,7 @@ function Form() {
             formData.append("description", regForm.description);
             formData.append("events", regForm.events);
             formData.append("token", regForm.token);
-       const res = await axios.post("https://event-proposal-backend-g0mb.onrender.com/createproposal", formData);
+       const res = await axios.post("https://proposal-back-end.onrender.com/createproposal", formData);
        if (res.data.status == "ok")
       {
        alert("Proposal Created")

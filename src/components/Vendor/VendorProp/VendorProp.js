@@ -28,7 +28,7 @@ function filter(){
 ///
 
  const getVendorData = () =>{
-  fetch("https://event-proposal-backend-g0mb.onrender.com/vendordata",{
+  fetch("https://proposal-back-end.onrender.com/vendordata",{
     method:"POST",
     crossDoamin : true,
     headers:{"content-type":"application/json","accept":"application/json","Access-Control-Allow-Origin" : "*"},
@@ -49,7 +49,7 @@ function filter(){
 async function deleteEvent(id){
   let Id = {id};
   setIsdeleted(true);
-  fetch("https://event-proposal-backend-g0mb.onrender.com/deleteproposal",{
+  fetch("https://proposal-back-end.onrender.com/deleteproposal",{
     method:"DELETE",
     crossDoamin : true,
     headers:{"content-type":"application/json","accept":"application/json","Access-Control-Allow-Origin" : "*"},
@@ -73,7 +73,7 @@ async function deleteEvent(id){
 
 
  const getProposals =() =>{
-  fetch("https://event-proposal-backend-g0mb.onrender.com/proposals",{
+  fetch("https://proposal-back-end.onrender.com/proposals",{
     method:"GET",
     crossDoamin : true,
     headers:{"content-type":"application/json","accept":"application/json","Access-Control-Allow-Origin" : "*"},
