@@ -1,0 +1,125 @@
+.form-box {
+  position: absolute;
+  top: 270px;
+  left: 1095px;
+  width: 477px;
+  height: 488px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  opacity: 1;
+  z-index: 9;
+  font-size: small;
+}
+
+.top {
+  display: flex;
+  justify-content: space-around;
+  font: normal normal bold 16px/22px Open Sans;
+  margin: 20px;
+  border-bottom: 1px solid rgb(213, 207, 207);
+}
+
+.heading {
+  color: #1b2734;
+  margin-left: 25px;
+  margin-top: 5px;
+}
+input {
+  width: 90%;
+  height: 30px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  opacity: 1;
+  font-size: small;
+  padding: 10px;
+}
+.input {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  background: #4e94f4 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  opacity: 1;
+  color: #ffffff;
+  border: none;
+}
+.forget {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 40px;
+  margin-top: 30px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.create {
+  font-size: large;
+}
+
+.user {
+  text-decoration: none;
+}
+
+.Logo {
+  color: white;
+  font-size: 32px;
+  margin: 15px 18px;
+}
+
+.Text {
+  color: white;
+  font-size: 61px;
+  position: absolute;
+  top: 340px;
+  left: 65px;
+}
+
+.form-box-reg {
+  position: absolute;
+  top: 123px;
+  left: 1073px;
+  width: 414px;
+  height: 620px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  opacity: 1;
+  z-index: 9;
+  font-size: small;
+}
+
+.regbutton {
+    width: 100px;
+    height: 40px;
+    background: #4e94f4 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    color: #ffffff;
+    border: none;
+    /* margin: 0px 0px; */
+    position: relative;
+    top: 5px;
+    left: 297px;
+}
+
+.regfooter {
+  /* display: flex; */
+  justify-content: space-around;
+  /* margin-top: 50px; */
+}
+
+.signin{
+    font-size: medium;
+    color: blue;
+    /* margin: 22px 25px; */
+    position: relative;
+    top: 49px;
+    left: 31px;
+}

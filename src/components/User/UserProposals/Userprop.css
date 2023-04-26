@@ -1,0 +1,52 @@
+.userimg {
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  width: 1706px;
+  height: 229px;
+  background: transparent url("../../../images/private-party-venues.jpg") 0% 0%
+    no-repeat padding-box;
+  opacity: 0.85;
+}
+.selected {
+  position: relative;
+  top: 254px;
+  left: 150px;
+
+}
+
+.selectcontainer{
+ 
+  position: relative;
+  border: 2px solid black;
+  width: 245px;
+  height: 217px;
+  /* top: 254px;
+  left: 200px; */
+}
+
+.proposalcontainer{
+
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    width: 100%;
+
+    grid-template-rows: 217px;
+    grid-template-columns: repeat(5,245px);
+    grid-gap: 40px;
+    position: relative;
+    top: 300px;
+
+}
+
+.userproposal{
+    width: 245px;
+    height: 217px;
+    text-align: left;
+    letter-spacing: 0.72px;
+    color: #081838;
+    opacity: 1;
+    border: 2px solid rgb(219, 210, 210);
+    border-radius: 5px;
+}
