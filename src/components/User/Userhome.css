@@ -1,7 +1,7 @@
 .form-box {
     position: absolute;
-    top: 270px;
-    left: 1095px;
+    top: 170px;
+    left: 950px;
     width: 477px;
     height: 488px;
     background: #ffffff 0% 0% no-repeat padding-box;
@@ -66,17 +66,16 @@
   .Logo{
     color: white;
     font-size: 32px;
-    margin: 15px 18px;
+    margin: 15px 40px;
 }
 
 .Text{
     color: white;
     font-size: 61px;
     position: absolute;
-    top: 340px;
-    left: 65px;
+    top: 240px;
+    left: 85px;
 }
-
 .form-box-reg {
     position: absolute;
     top: 123px;
