@@ -6,7 +6,7 @@
 .imgven {
   position: absolute;
   top: 17px;
-  left: 1300px;
+  left: 1200px;
   width: 36px;
   height: 36px;
   /* UI Properties */
@@ -25,7 +25,7 @@
 .name {
   position: absolute;
   top: 24px;
-  left: 1408px;
+  left: 1308px;
   width: 106px;
   height: 22px;
   text-align: left;
@@ -48,7 +48,7 @@
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   top: 29px;
-  left: 1319px;
+  left: 1200px;
 }
 .dropdown-content a {
   color: black;

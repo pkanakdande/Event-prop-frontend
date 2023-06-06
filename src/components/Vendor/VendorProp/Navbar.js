@@ -20,9 +20,9 @@ function Navbar(props) {
       <div className="name">
         <b>{localStorage.getItem("vendorName")}</b>
       </div>
-      <div class="dropdown">
+      <div className="dropdown">
         <div className="imgven"></div>
-        <div class="dropdown-content">
+        <div className="dropdown-content">
           <Link onClick={logout}  to="/">Log Out</Link>
         </div>
       </div>
